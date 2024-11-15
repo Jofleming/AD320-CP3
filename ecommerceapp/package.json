@@ -1,0 +1,21 @@
+{
+    "name": "ecommerce-site",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "nyc mocha"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "sqlite3": "^5.1.6"
+    },
+    "devDependencies": {
+        "chai": "^4.5.0",
+        "chai-http": "^4.3.0",
+        "mocha": "^10.8.2",
+        "nyc": "^15.1.0",
+        "supertest": "^6.3.4"
+    }
+}

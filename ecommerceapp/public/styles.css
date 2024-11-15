@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  #order-status {
+    margin-top: 20px;
+    color: green;
+  }
+  
+  #error-message {
+    color: red;
+  }
+  
